@@ -29,13 +29,13 @@ form{
 }
 
 #depths {
-    position: fixed;
-    margin: 25vw 0 0 190vh;
-    color:black;
-    font-size: small;
+    position: absolute;
+    margin: 10vw 0 0 190vh;
+    scale: 20%;
+    opacity: 0;
 }
 #depths:hover{
-    color:white;
+    opacity: 1;
 }
 
 
