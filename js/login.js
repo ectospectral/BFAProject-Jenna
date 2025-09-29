@@ -5,7 +5,7 @@ let passwordForm = document.querySelector('#frontpage-form2');
 let correctUser = 'warden';
 let correctPassword = 'password';
 
-let depthsPassword = 'enlighten';
+let depthsPassword = '7777';
 
 function enterPassword(){
 
