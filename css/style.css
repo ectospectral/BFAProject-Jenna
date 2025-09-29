@@ -1,0 +1,206 @@
+
+/* FRONTPAGE */
+.frontpage-body{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    margin: 44vh 0;
+    left: 44vw;
+    top: 2vw;
+    background: url(../assets/dark.jpg);
+    color: rgb(184,184,184);
+}
+.frontpage-title{
+    position: absolute;
+    text-align: center;
+    top: 10vw;
+    left: 47vw;
+}
+form{
+    position: relative;
+    left: 45vw;
+}
+.frontpage-motto{
+    position: absolute;
+    top:15vw;
+    left: 43.5vw;
+}
+
+#depths {
+    position: fixed;
+    margin: 25vw 0 0 190vh;
+    color:black;
+    font-size: small;
+}
+#depths:hover{
+    color:white;
+}
+
+
+/* ACCOUNT */
+.message-title{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 500;
+    font-style: normal;
+}
+
+#message-body{
+    background-color: lightgray;
+}
+
+.message-list{
+    float: left;
+}
+.message-list li{
+    float: left;
+    list-style: none;
+    position: fixed;
+}
+
+#message1{
+    flex-direction: row;
+}
+.message-list li a{
+    display: fixed;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    padding: 16px 14px;
+    text-decoration: none;
+}
+#message1{
+    position: absolute;
+    top: 50px;
+}
+#access{
+    position: absolute;
+    top: 250px;
+}
+#message3{
+    position: absolute;
+    top: 450px;
+}
+.message-list li a:hover{
+    background-color: grey;
+}
+.message-list li ul{
+    display: none;
+    position: absolute;
+}
+.message-list li:hover ul{
+    display: inline-grid;
+}
+
+.message{
+    position: relative;
+    padding-left: 20vw;
+    padding-top: 5vh;
+    font-size: large;
+}
+.date{
+    position: relative;
+    padding-left: 10vw; 
+}
+/* depths */
+.depths-body{
+    background: rgb(0, 0, 19);
+}
+
+.depths-link{
+    color: rgb(0, 0, 19);
+    text-decoration: none;
+}
+.depths-link:hover{
+    color: rgb(100, 100, 100);
+}
+
+.depths-offer{
+    color: rgb(0, 0, 19);
+}
+
+.surface-descend{
+    color:rgb(10, 10, 19)
+}
+.surface-descend:hover{
+    color: white;
+    font-size: large;
+}
+
+/* index */
+#index-html{
+    height: 2000%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(188, 113, 119) 73%, rgb(84, 7, 7) 100%); 
+}
+
+#index-body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.index-text{
+    position:absolute;
+    text-align: center;
+    padding-left: 42vw;
+    padding-top: 3vh;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    font-size: largest;
+    text-decoration: none;
+}
+#index-footer{
+    position: absolute;
+    bottom: -1880vh;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: auto;
+}
+.index-footer-link{
+    position: absolute;
+    color: rgb(192, 192, 192);
+    opacity: 1;
+    padding-top: 0;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    font-size: larger;
+    text-decoration: none;
+}
+.index-footer-link:hover{
+    color: white;
+}
+#descend-link{
+    left: 15vw;
+}
+#surface-link{
+    left: 75vw;
+}
+
+.fadein-link{
+    animation: scroll-fadein 5s 1;
+}
+@keyframes scroll-fadein{
+    0%{
+        opacity: 0;
+        padding-top: 50px;
+    }
+    100%{
+        opacity: 1;
+        padding-top: 0px;
+    }
+}
