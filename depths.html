@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>abyss</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="depths-body"> 
-    <h4 class="depths-offer">the depths have more to offer you</h4>
+<body id="depths-body">
+    <div id="terminal">
+        <div id="output"></div>
+        <div id="input-container">
+            <span class="prompt">$</span>
+            <input type="text" id="input" autofocus />
+        </div>
+    </div>
+    <script src="js/terminal.js"></script>
 </body>
-
 </html>

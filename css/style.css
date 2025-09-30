@@ -109,8 +109,54 @@ form{
     padding-left: 10vw; 
 }
 /* depths */
-.depths-body{
-    background: rgb(63, 4, 4);
+#depths-body{
+    background: rgb(0, 0, 0);
+
+    font-family: monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#terminal {
+    width: 100%;
+    height: 100%;
+
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    margin-right: 5px;
+}
+
+#input {
+       font-family: monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    background: none;
+    border: none;
+    color: #00ff00;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .depths-link{
