@@ -190,10 +190,10 @@ form{
 }
 
 /* index */
-#index-html{
+#disconnect{
     height: 2000%;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(188, 113, 119) 73%, rgb(84, 7, 7) 100%); 
+    /* background: rgb(255,255,255); */
+    background: linear-gradient(180deg, rgb(170, 139, 139) 0%, rgb(72, 16, 20) 73%, rgb(84, 7, 7) 100%); 
 }
 
 #index-body{
@@ -274,4 +274,57 @@ form{
     height: 100%;
     font-size: largest;
     text-decoration: none;
+}
+
+.video-body{
+            background-color: black;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+}
+.video{
+            width: 80%;
+            height: auto;
+}
+
+.title-text{
+    padding: 30vh 50vw 0 42vw;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    font-size: largest;
+    text-decoration: none;
+
+
+}
+.title-short{
+     font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    font-size: largest;
+    text-decoration: none;
+    color: black;
+}
+#title-button{
+    padding: 15vh 50vw 0 47vw;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    font-size: largest;
+    text-decoration: none;
+    color:white;
+}
+#title-body{
+    background-color: rgb(81, 32, 32);
 }

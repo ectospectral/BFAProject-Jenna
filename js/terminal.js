@@ -1,6 +1,19 @@
+let video = 3;
 let commands = {
-    "help": "Available commands: help, echo,",
+    "help": "Available commands: help, echo, receive",
     "echo": (args) => args.join(" "),
+    "receive": (args) => {
+        if (args === 'key'){
+        video = 3;
+        }
+
+        if (video >= 1 && video <= 3){
+            window.location.href = `video${video}.html`;
+            return `Loading video ${video}`;
+        } else {
+            return "File not found.";
+        }
+    }
 };
 
 let inputElement = document.getElementById("input");
