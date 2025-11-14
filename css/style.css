@@ -291,14 +291,14 @@ form{
 }
 
 .title-text{
-    padding: 30vh 50vw 0 42vw;
+    padding: 30vh 55vw 0 43vw;
 
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
       font-weight: 400;
     font-style: normal;
     height: 100%;
-    font-size: largest;
+    font-size: 3em;
     text-decoration: none;
 
 
@@ -313,18 +313,139 @@ form{
     text-decoration: none;
     color: black;
 }
-#title-button{
-    padding: 15vh 50vw 0 47vw;
-
+#title-button {
+    position: absolute;  
+    top: 40vh;  
+    left: 47vw; 
+    
     font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-      font-weight: 400;
+    font-size: 2em; 
+    font-weight: 400;
     font-style: normal;
-    height: 100%;
-    font-size: largest;
     text-decoration: none;
-    color:white;
+    color: rgb(181, 181, 181);
+    border: none;
+    cursor: pointer;
+}
+#title-button:hover {
+    position: absolute;  
+    top: 40vh;  
+    left: 47vw; 
+    
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2em; 
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
 }
 #title-body{
     background-color: rgb(81, 32, 32);
 }
+#instruction-button {
+    position: absolute;  
+    top: 45vh;  
+    left: 45vw; 
+    
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2em; 
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(181, 181, 181);
+    border: none;
+    cursor: pointer;
+}
+#instruction-button:hover {
+    position: absolute;  
+    top: 45vh;  
+    left: 45vw; 
+    
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2em; 
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+      .container {
+            width: 80%;
+            margin: 0 auto;
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #story-1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #222;
+            font-weight: bold;
+        }
+
+        .meta-info {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #555;
+            text-align: center;
+        }
+
+        .author, .date {
+            margin: 5px 0;
+        }
+.date{
+    position: relative;
+    right: 5vw;
+}
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .article-image-container {
+            flex: 1 1 100%;
+            max-width: 100%;
+        }
+
+        .article-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .article-text {
+            flex: 2 1 60%;
+            font-size: 1.1em;
+            color: #333;
+            text-align: justify;
+        }
+
+        .article-text p {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .article-text {
+                font-size: 1em;
+            }
+
+            .article-image {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
