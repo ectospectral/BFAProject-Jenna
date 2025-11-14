@@ -5,8 +5,6 @@ let passwordForm = document.querySelector('#frontpage-form2');
 let correctUser = 'warden';
 let correctPassword = 'password';
 
-let depthsPassword = '7777';
-
 function enterPassword(){
 
     if(document.querySelector('#warden').value != correctPassword && document.querySelector('#warden').value != depthsPassword && document.querySelector('#user').value != correctUser){
@@ -23,13 +21,8 @@ function enterPassword(){
     }
     else if(document.querySelector('#warden').value === correctPassword && document.querySelector('#user').value === correctUser){
         alert('Welcome back.');
-        passwordForm.action = 'account.html';
+        passwordForm.action = 'disconnect.html';
         passwordForm.submit();
-    }
-    else if(document.querySelector('#warden').value === depthsPassword && document.querySelector('#user').value === correctUser){
-        alert('further still');
-        passwordForm.action = 'depths.html';
-        passwordForm.submit(); 
     }
     
 }
